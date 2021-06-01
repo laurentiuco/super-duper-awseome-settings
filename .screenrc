@@ -1,0 +1,30 @@
+# the following two lines give a two-line status, with the current window highlighted
+hardstatus alwayslastline
+hardstatus string '%{= kG}[%{G}%H%? %1`%?%{g}][%= %{= kw}%-w%{+b yk} %n*%t%?(%u)%? %{-}%+w %=%{g}][%{B}%m/%d %{W}%C%A%{g}]'
+
+# set startup message off
+# huge scroll
+startup_message off
+defscrollback 5000
+
+# force background colors to refresh
+defbce "on"
+
+# layouts
+layout autosave on
+
+#enable some sort of mouse selection on window size
+termcapinfo xterm ti@:te@
+
+# clear screen when exiting vim or alike
+altscreen on
+
+# switch windows with F3 (prev) and F4 (next)
+bindkey "^[OR" prev
+bindkey "^[OS" next
+
+# switch region fast 
+bind j focus down
+bind k focus up
+bind l focus right
+bind h focus left
