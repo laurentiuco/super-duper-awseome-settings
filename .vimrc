@@ -48,7 +48,7 @@ endfunc
 com! -nargs=0 SeeTab :call SeeTab()
 
 " colorscheme 
-colorscheme default
+colorscheme elflord
 
 " shortcuts
 
