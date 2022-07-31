@@ -1,3 +1,6 @@
+" encoding
+set encoding=utf-8
+
 " line numbers
 set number
 
