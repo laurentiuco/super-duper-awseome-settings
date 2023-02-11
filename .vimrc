@@ -12,15 +12,21 @@ set showcmd
 
 " show existing tab with 4 spaces width
 set tabstop=4
+
 " when indenting with '>', use 4 spaces width
 set shiftwidth=4
+
 " On pressing tab, insert 4 spaces
 set expandtab
 
+" remove crappy bkup file
 set noswapfile
 
 set t_Co=256
+
+
 " copy paste support
+" NOTE that one needs to install vim-gtk or similar to have clipboard builtin support!
 set clipboard+=unnamedplus
 
 " see ugly spaces and tabs
